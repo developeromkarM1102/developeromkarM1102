@@ -22,16 +22,25 @@ Here are some ideas to get you started:
 
 
 <h1 align="center">👨‍💻 About Me</h1>
- 🎓 Second-year IT student<br>
- 🔥 Consistently solving **DSA problems in Java**<br>
- 🌐 Learning & building **full-stack applications**<br>
- 📈 Strong believer in **discipline > motivation**<br>
+ 🎓 Second-year IT student<br><br>
+ 🔥 Consistently solving <h4>DSA problems in Java</h4>
+ 🌐 Learning & building <h4>full-stack applications</h4>
+ 📈 Strong believer in <h4>discipline > motivation<h4>
  🎯 Goal: Become an Real world problem solver 
 
 ## 🌐 Connect With Me
-- 💼 LinkedIn: **www.linkedin.com/in/omkar-mutal-55b76335b** 
-- 🌍 Portfolio: Coming Soon 🚧
-- 📧 Email: **omkarmutal1102@gmail.com**
+<p align="center">
+  <a href="https://linkedin.com/in/omkar-mutal-55b76335b">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a href="https://instagram.com/mutal_omkar/">
+    <img src="https://skillicons.dev/icons?i=instagram" />
+  </a>
+  <a href="mailto:Omkarmutal1102@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+</p>
+
 
 
 ## 📘 DSA Journey
