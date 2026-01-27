@@ -18,18 +18,18 @@ Here are some ideas to get you started:
 <h1 align="center"> Hi there 👋, I'm Omkar Mutal </h1>
 
 <h2 align="center"> 🚀  IT Student | Aspiring Full Stack Developer  
-💻 Java + DSA Hustler </h2> 
+💻 | Java + DSA Hustler </h2> 
 
 
 <h1 align="center">👨‍💻 About Me</h1>
- 🎓 Second-year IT student<br><br>
- 🔥 Consistently solving <h4>DSA problems in Java</h4>
- 🌐 Learning & building <h4>full-stack applications</h4>
- 📈 Strong believer in <h4>discipline > motivation<h4>
+ 🎓 Second-year IT student<br>
+ 🔥 Consistently solving DSA problems in Java<br>
+ 🌐 Learning & building full-stack applications<br>
+ 📈 Strong believer in discipline > motivation<br>
  🎯 Goal: Become an Real world problem solver 
 
 ## 🌐 Connect With Me
-<p align="center">
+<p align="left">
   <a href="https://linkedin.com/in/omkar-mutal-55b76335b">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
@@ -50,7 +50,7 @@ Here are some ideas to get you started:
 
 
 
-##Tech Stack
+<h2 align="left">Tech Stack :</h2>
 
 <h3 align="left">Languages and Tools:</h3>
 
