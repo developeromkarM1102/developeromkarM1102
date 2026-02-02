@@ -1,145 +1,98 @@
+<h1 align="center">Hey there 👋, I’m Omkar Mutal</h1>
+
+<p align="center">
+  🎓 IT Student &nbsp;•&nbsp; 💻 Aspiring Full-Stack Developer with AI &nbsp;•&nbsp; ☕ Java & DSA Learner
+</p>
+
+<br/>
+
+## 🌱 About Me
+
+I’m a second-year Information Technology student who believes in **quiet consistency and honest growth**.
+
+I enjoy solving problems, building applications, and learning through real practice — one step at a time.  
+My long-term goal is to build software that **solves real-world problems and helps people**.
+
+- 🧠 Practicing Data Structures & Algorithms in Java  
+- 🌐 Exploring full-stack development gradually  
+- 🔁 Learning through projects, mistakes, and iteration  
+- 📅 One day, one commit, one improvement  
 
 
-<!--
-**developeromkarM1102/developeromkarM1102** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🛠️ Tech Stack
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-<h1 align="center"> Hi there 👋, I'm Omkar Mutal </h1>
-
-<h2 align="center"> 🚀  IT Student | Aspiring Full Stack Developer  
-💻 | Java + DSA Hustler </h2> 
-
-
-<h1 align="center">👨‍💻 About Me</h1>
- 🎓 Second-year IT student<br>
- 🔥 Consistently solving DSA problems in Java<br>
- 🌐 Learning & building full-stack applications<br>
- 📈 Strong believer in discipline > motivation<br>
- 🎯 Goal: Become an Real world problem solver 
-
-## 🌐 Connect With Me
+### 💻 Languages
 <p align="left">
+  <img src="https://skillicons.dev/icons?i=java,js,python,cpp&theme=dark" />
+</p>
+
+### 🎨 Frontend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,react,tailwind&theme=dark" />
+</p>
+
+### ⚙️ Backend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" />
+</p>
+
+### 🧰 Tools & Version Control
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github&theme=dark" />
+</p>
+
+
+---
+
+## 🚀 Projects
+
+- **Campus Speak**  
+  💬 A student-focused discussion and interaction platform  
+
+- 🧩 More thoughtfully crafted projects coming soon  
+
+---
+
+## 🤝 Let’s Connect
+
+<p align="center">
   <a href="https://linkedin.com/in/omkar-mutal-55b76335b">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
+
   <a href="https://instagram.com/mutal_omkar/">
     <img src="https://skillicons.dev/icons?i=instagram" />
   </a>
+
   <a href="mailto:Omkarmutal1102@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
-</p>
 
-
-
-## 📘 DSA Journey
- 🔢 Solving problems daily 
- 🧠 Practicing from Striver A2Z & LeetCode
- 📂 Maintaining a dedicated DSA repository with clean solutions
-
-
-
-<h2 align="left">Tech Stack :</h2>
-
-<h3 align="left">Languages and Tools:</h3>
-
-<p align="left">
-  <!-- HTML -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-      alt="html5" width="40" height="40"/>
-  </a>
-
-  <!-- CSS -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-      alt="css3" width="40" height="40"/>
-  </a>
-
-  <!-- JavaScript -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="javascript" width="40" height="40"/>
-  </a>
-
-  <!-- React -->
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-      alt="react" width="40" height="40"/>
-  </a>
-
-  <!-- Tailwind -->
-  <a href="https://tailwindcss.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
-      alt="tailwind" width="40" height="40"/>
-  </a>
-
-  <!-- Node.js -->
-  <a href="https://nodejs.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
-      alt="nodejs" width="40" height="40"/>
-  </a>
-
-  <!-- Express -->
-  <a href="https://expressjs.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
-      alt="express" width="40" height="40"/>
-  </a>
-
-  <!-- MongoDB -->
-  <a href="https://www.mongodb.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
-      alt="mongodb" width="40" height="40"/>
-  </a>
-
-  <!-- Java -->
-  <a href="https://www.java.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-      alt="java" width="40" height="40"/>
-  </a>
-
-  <!-- Git -->
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-      alt="git" width="40" height="40"/>
-  </a>
-
-  <!-- GitHub -->
-  <a href="https://github.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
-      alt="github" width="40" height="40"/>
+  <a href="https://www.leetcode.com/Omkar_Mutal11/">
+    <img
+      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+      width="48"
+      height="48"
+      alt="LeetCode"
+    />
   </a>
 </p>
 
 
+---
 
+## 📊 GitHub Activity
 
-## 🚀 Projects
-- **Campus Speak** – Student discussion & interaction platform  
-- More projects coming soon 🚧
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=developeromkarM1102&show_icons=true&theme=tokyonight" />
+</p>
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=developeromkarM1102&theme=tokyonight" />
+</p>
 
-## 📊 GitHub Stats
+---
 
-![Omkar's GitHub stats](https://github-readme-stats.vercel.app/api?username=developeromkarM1102&show_icons=true&theme=tokyonight)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=developeromkarM1102&theme=tokyonight)
-
-
-
-
-
-
-⭐ *Consistency builds confidence. Code every day.*
-
+<p align="center">
+  ✨ <i>Consistency builds confidence. Quiet work. Strong results.</i>
+</p>
