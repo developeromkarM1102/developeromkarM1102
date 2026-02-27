@@ -7,10 +7,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=developeromkarM1102&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views"/>
-</p>
-
-<p align="center">
   💻 Full-Stack Developer • 🤖 Integrating AI into Applications • 🧠 DSA with Java
 </p>
 
