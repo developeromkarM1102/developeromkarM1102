@@ -124,7 +124,11 @@ A student-focused discussion platform enhanced with scalable backend architectur
   <a href="mailto:Omkarmutal1102@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
-
+  
+<a href="https://www.threads.com/@mutal_omkar" target="_blank">
+  <img src="https://cdn.simpleicons.org/threads/white" height="45" />
+</a>
+  
   <a href="https://www.leetcode.com/Omkar_Mutal11/">
     <img
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
