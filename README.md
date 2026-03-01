@@ -71,7 +71,7 @@ Build scalable AI-powered full-stack applications that solve practical problems.
 
 ### 🧰 Tools
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,redux&theme=dark" />
 </p>
 
 ---
