@@ -1,9 +1,9 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="880"
-     height="235"
-     viewBox="0 0 880 235"
+     width="30"
+     height="75"
+     viewBox="0 119 30 75"
      role="img"
      aria-labelledby="title">
 
@@ -22,7 +22,7 @@
 
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
 
   .bg {
     fill: #f3f3f1;

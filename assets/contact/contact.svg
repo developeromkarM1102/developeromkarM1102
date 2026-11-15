@@ -1,0 +1,318 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="880"
+     height="235"
+     viewBox="0 0 880 235"
+     role="img"
+     aria-labelledby="title">
+
+  <title id="title">Connect With Me — Omkar Mutal</title>
+
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3975F6"/>
+      <stop offset="100%" stop-color="#78A2FF"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6"
+                    flood-color="#252525" flood-opacity=".07"/>
+    </filter>
+
+
+<style>
+600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+
+  .bg {
+    fill: #f3f3f1;
+  }
+
+  .card {
+    fill: #ffffff;
+    stroke: #e4e4e1;
+    stroke-width: 1;
+  }
+
+  /* Editorial heading */
+  .heading {
+    fill: #202124;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+  }
+
+  /* Small section label */
+  .eyebrow {
+    fill: #3975F6;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+
+  /* Supporting text */
+  .description {
+    fill: #777873;
+    font-family: 'Manrope', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .1px;
+  }
+
+  /* Social card titles */
+  .social-label {
+    fill: #202124;
+    font-family: 'Manrope', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  /* Social card subtitles */
+  .social-handle {
+    fill: #858680;
+    font-family: 'Manrope', Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+  }
+
+  /* Footer */
+  .footer {
+    fill: #969791;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: .8px;
+  }
+
+  .social-card {
+    fill: #f8f8f6;
+    stroke: #e8e8e5;
+    stroke-width: 1;
+    transition: fill .25s ease, stroke .25s ease;
+  }
+
+  .social-card:hover {
+    fill: #edf3ff;
+    stroke: #3975F6;
+  }
+
+  .icon-bg {
+    fill: #3975F6;
+  }
+
+  .icon {
+    fill: #ffffff;
+  }
+
+  .pulse {
+    animation: pulse 2.5s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: .4; }
+    50% { opacity: 1; }
+  }
+
+  .line {
+    stroke-dasharray: 110;
+    stroke-dashoffset: 110;
+    animation: draw 2s ease forwards;
+  }
+
+  @keyframes draw {
+    to { stroke-dashoffset: 0; }
+  }
+
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+  }
+</style>
+
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="880" height="235" rx="14"/>
+
+  <!-- Card -->
+  <rect class="card"
+        x="1" y="1"
+        width="878" height="233"
+        rx="13"
+        filter="url(#shadow)"/>
+
+  <!-- Accent -->
+  <rect x="30" y="0" width="90" height="3"
+        rx="2" fill="url(#blueGradient)"/>
+
+  <!-- Heading -->
+  <text class="eyebrow" x="31" y="34">
+    LET'S CONNECT
+  </text>
+
+  <text class="heading" x="30" y="69">
+    Have an idea? Let's talk.
+  </text>
+
+  <path class="line"
+        d="M31 80 H153"
+        fill="none"
+        stroke="#3975F6"
+        stroke-width="2.5"
+        stroke-linecap="round"/>
+
+  <text class="description" x="31" y="98">
+    Open to opportunities, collaborations and interesting conversations.
+  </text>
+
+  <!-- Availability -->
+  <g transform="translate(760 36)">
+    <circle cx="0" cy="0" r="4" fill="#3975F6" class="pulse"/>
+    <text x="11" y="4"
+          font-family="Arial, sans-serif"
+          font-size="9"
+          fill="#777873"
+          letter-spacing="1">
+      SAY HELLO
+    </text>
+  </g>
+
+  <!-- Social cards -->
+
+  <!-- GitHub -->
+  <a href="https://github.com/developeromkarM1102"
+     xlink:href="https://github.com/developeromkarM1102"
+     target="_blank">
+    <g class="float">
+      <rect class="social-card"
+            x="30" y="119"
+            width="195" height="75"
+            rx="10"/>
+
+      <circle class="icon-bg" cx="61" cy="156" r="19"/>
+
+      <path class="icon"
+            d="M61 145
+               C54.9 145 50 149.9 50 156
+               C50 160.9 53.2 165.1 57.7 166.6
+               C58.2 166.7 58.4 166.4 58.4 166.1
+               V163.8
+               C55.3 164.5 54.7 162.5 54.7 162.5
+               C54.3 161.4 53.6 161.1 53.6 161.1
+               C52.6 160.4 53.7 160.4 53.7 160.4
+               C54.8 160.5 55.4 161.6 55.4 161.6
+               C56.4 163.3 58 162.8 58.5 162.5
+               C58.6 161.8 58.9 161.3 59.3 161
+               C56.8 160.7 54.2 159.7 54.2 155.5
+               C54.2 154.3 54.6 153.4 55.5 152.6
+               C55.4 152.3 55 151.2 55.6 149.8
+               C55.6 149.8 56.6 149.5 58.5 150.8
+               C60.1 150.4 61.9 150.4 63.5 150.8
+               C65.4 149.5 66.4 149.8 66.4 149.8
+               C67 151.2 66.6 152.3 66.5 152.6
+               C67.4 153.4 67.8 154.3 67.8 155.5
+               C67.8 159.7 65.2 160.7 62.7 161
+               C63.2 161.4 63.6 162.1 63.6 163.2
+               V166.1
+               C63.6 166.4 63.8 166.7 64.3 166.6
+               C68.8 165.1 72 160.9 72 156
+               C72 149.9 67.1 145 61 145Z"/>
+      <text class="social-label" x="91" y="151">GitHub</text>
+      <text class="social-handle" x="91" y="168">@developeromkarM1102</text>
+    </g>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/omkar-mutal-55b76335b"
+     xlink:href="https://linkedin.com/in/omkar-mutal-55b76335b"
+     target="_blank">
+    <g class="float" style="animation-delay:.2s">
+      <rect class="social-card"
+            x="240" y="119"
+            width="195" height="75"
+            rx="10"/>
+
+      <circle class="icon-bg" cx="271" cy="156" r="19"/>
+
+      <path class="icon"
+            d="M262 148h4v16h-4z
+               M264 141.5a2.3 2.3 0 1 0 0 4.6
+               2.3 2.3 0 0 0 0-4.6
+               M269 148h4v2.2
+               c.6-1.1 1.9-2.6 4.4-2.6
+               4.1 0 4.9 2.7 4.9 6.2v10.2h-4v-9
+               c0-2.1-.1-4.1-2.5-4.1
+               -2.5 0-2.8 1.9-2.8 4v9.1h-4z"/>
+
+      <text class="social-label" x="301" y="151">LinkedIn</text>
+      <text class="social-handle" x="301" y="168">Let's connect professionally</text>
+    </g>
+  </a>
+
+  <!-- Portfolio -->
+  <a href="https://dev-omkar-portfolio.vercel.app"
+     xlink:href="https://dev-omkar-portfolio.vercel.app"
+     target="_blank">
+    <g class="float" style="animation-delay:.4s">
+      <rect class="social-card"
+            x="450" y="119"
+            width="195" height="75"
+            rx="10"/>
+
+      <circle class="icon-bg" cx="481" cy="156" r="19"/>
+
+      <path class="icon"
+            d="M470 149h22v14h-22z
+               M476 145h10v4h-10z
+               M477 156h8v2h-8z
+               M477 160h8v1.5h-8z"
+            fill-rule="evenodd"/>
+
+      <text class="social-label" x="511" y="151">Portfolio</text>
+      <text class="social-handle" x="511" y="168">Explore my work</text>
+    </g>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:Omkarmutal1102@gmail.com"
+     xlink:href="mailto:Omkarmutal1102@gmail.com">
+    <g class="float" style="animation-delay:.6s">
+      <rect class="social-card"
+            x="660" y="119"
+            width="190" height="75"
+            rx="10"/>
+
+      <circle class="icon-bg" cx="691" cy="156" r="19"/>
+
+      <path class="icon"
+            d="M680 149h22v14h-22z
+               M681 150l10 8 10-8"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linejoin="round"/>
+
+      <text class="social-label" x="721" y="151">Email</text>
+      <text class="social-handle" x="721" y="168">Let's start a conversation</text>
+    </g>
+  </a>
+
+  <!-- Footer -->
+  <line x1="30" y1="211" x2="850" y2="211"
+        stroke="#e8e8e5" stroke-width="1"/>
+
+  <text class="footer" x="31" y="227">
+    OMKAR MUTAL
+  </text>
+
+  <text class="footer" x="849" y="227" text-anchor="end">
+    ALWAYS OPEN TO NEW POSSIBILITIES
+  </text>
+
+</svg>

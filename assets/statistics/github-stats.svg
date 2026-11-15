@@ -1,0 +1,319 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="880"
+     height="280"
+     viewBox="0 0 880 280"
+     role="img"
+     aria-labelledby="title">
+
+  <title id="title">GitHub Statistics — Omkar Shankar Mutal</title>
+
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3975F6"/>
+      <stop offset="100%" stop-color="#78A2FF"/>
+    </linearGradient>
+
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3975F6">
+        <animate attributeName="stop-color"
+                 values="#3975F6;#78A2FF;#3975F6"
+                 dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#78A2FF">
+        <animate attributeName="stop-color"
+                 values="#78A2FF;#3975F6;#78A2FF"
+                 dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="scanGradient">
+      <stop offset="0%" stop-color="#3975F6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3975F6" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#3975F6" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="statsClip">
+      <rect x="25" y="111" width="830" height="137" rx="9"/>
+    </clipPath>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7"
+                    flood-color="#252525" flood-opacity=".07"/>
+    </filter>
+  </defs>
+
+  <style>
+    .bg {
+      fill: #f3f3f1;
+    }
+
+    .card {
+      fill: #ffffff;
+      stroke: #e4e4e1;
+      stroke-width: 1;
+    }
+
+    .heading {
+      fill: #202124;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 27px;
+      font-weight: 400;
+    }
+
+    .eyebrow {
+      fill: #3975F6;
+      font-family: Arial, sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .description {
+      fill: #777873;
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: .3px;
+    }
+
+    .footer {
+      fill: #969791;
+      font-family: Arial, sans-serif;
+      font-size: 9px;
+      letter-spacing: 1.2px;
+    }
+
+    .blue-line {
+      stroke-dasharray: 110;
+      stroke-dashoffset: 110;
+      animation: drawLine 2s ease forwards;
+    }
+
+    @keyframes drawLine {
+      to { stroke-dashoffset: 0; }
+    }
+
+    .scan {
+      animation: scan 6s linear infinite;
+    }
+
+    @keyframes scan {
+      from { transform: translateX(-900px); }
+      to { transform: translateX(900px); }
+    }
+
+    .pulse {
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .4; }
+      50% { opacity: 1; }
+    }
+
+    .border {
+      stroke-dasharray: 45 18;
+      animation: borderMove 12s linear infinite;
+    }
+
+    @keyframes borderMove {
+      to { stroke-dashoffset: -252; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="880" height="280" rx="14"/>
+
+  <!-- Main card -->
+  <rect class="card"
+        x="1" y="1"
+        width="878" height="278"
+        rx="13"
+        filter="url(#softShadow)"/>
+
+  <!-- Animated outline -->
+  <rect x="1.5" y="1.5"
+        width="877" height="277"
+        rx="13"
+        fill="none"
+        stroke="url(#borderGradient)"
+        stroke-width="1.5"
+        class="border"
+        opacity=".65"/>
+
+  <!-- Top accent -->
+  <rect x="30" y="0" width="90" height="3"
+        rx="2" fill="url(#blueGradient)"/>
+
+  <!-- Header -->
+  <text class="eyebrow" x="31" y="34">
+    GITHUB ANALYTICS
+  </text>
+
+  <text class="heading" x="30" y="69">
+    Consistency creates progress.
+  </text>
+
+  <path class="blue-line"
+        d="M31 80 H153"
+        fill="none"
+        stroke="#3975F6"
+        stroke-width="2.5"
+        stroke-linecap="round"/>
+
+  <text class="description" x="31" y="98">
+    Every day is another opportunity to learn, build and improve.
+  </text>
+
+  <!-- Status indicator -->
+  <g transform="translate(760 36)">
+    <circle cx="0" cy="0" r="4"
+            fill="#3975F6"
+            class="pulse"/>
+    <text x="11" y="4"
+          font-family="Arial, sans-serif"
+          font-size="9"
+          fill="#777873"
+          letter-spacing="1">
+      STREAK STATS
+    </text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="30" y1="111" x2="850" y2="111"
+        stroke="#e8e8e5" stroke-width="1"/>
+
+  <!-- Actual GitHub streak statistics -->
+  <g clip-path="url(#statsClip)">
+
+<svg x="30" y="112" width="820" height="136" viewBox="0 0 495 195" preserveAspectRatio="xMidYMid meet" style="isolation: isolate"><style>
+            @keyframes currstreak {
+                0% { font-size: 3px; opacity: 0.2; }
+                80% { font-size: 34px; opacity: 1; }
+                100% { font-size: 28px; opacity: 1; }
+            }
+            @keyframes fadein {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+            }
+        </style>
+        <defs>
+            <clipPath id="streak-outer_rectangle">
+                <rect width="495" height="195" rx="4.5" />
+            </clipPath>
+            <mask id="streak-mask_out_ring_behind_fire">
+                <rect width="495" height="195" fill="white" />
+                <ellipse id="streak-mask-ellipse" cx="247.5" cy="32" rx="13" ry="18" fill="black" />
+            </mask>
+
+        </defs>
+        <g clip-path="url(#streak-outer_rectangle)">
+            <g style="isolation: isolate">
+                <rect stroke="#000000" stroke-opacity="0" fill="#f3f3f1" rx="4.5" x="0.5" y="0.5" width="494" height="194" />
+            </g>
+            <g style="isolation: isolate">
+                <line x1="165" y1="28" x2="165" y2="170" vector-effect="non-scaling-stroke" stroke-width="1" stroke="#E4E2E2" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" />
+                <line x1="330" y1="28" x2="330" y2="170" vector-effect="non-scaling-stroke" stroke-width="1" stroke="#E4E2E2" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" />
+            </g>
+            <g style="isolation: isolate">
+
+                <g transform="translate(82.5, 48)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#202124" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="700" font-size="28px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 0.6s">
+                        358
+                    </text>
+                </g>
+
+
+                <g transform="translate(82.5, 84)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#777873" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="400" font-size="14px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 0.7s">
+                        Total Contributions
+                    </text>
+                </g>
+
+
+                <g transform="translate(82.5, 114)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#969791" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="400" font-size="12px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 0.8s">
+                        Sep 3, 2025 - Present
+                    </text>
+                </g>
+            </g>
+            <g style="isolation: isolate">
+
+                <g transform="translate(247.5, 108)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#3975f6" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="700" font-size="14px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 0.9s">
+                        Current Streak
+                    </text>
+                </g>
+
+
+                <g transform="translate(247.5, 145)">
+                    <text x="0" y="21" stroke-width="0" text-anchor="middle" fill="#969791" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="400" font-size="12px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 0.9s">
+                        Nov 13 - Nov 15
+                    </text>
+                </g>
+
+
+                <g mask="url(#streak-mask_out_ring_behind_fire)">
+                    <circle cx="247.5" cy="71" r="40" fill="none" stroke="#3975f6" stroke-width="5" style="opacity: 0; animation: fadein 0.5s linear forwards 0.4s" />
+                </g>
+
+                <g transform="translate(247.5, 19.5)" stroke-opacity="0" style="opacity: 0; animation: fadein 0.5s linear forwards 0.6s">
+                    <path d="M -12 -0.5 L 15 -0.5 L 15 23.5 L -12 23.5 L -12 -0.5 Z" fill="none" />
+                    <path d="M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2 C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11 C -6.78 7.51 -8 10.62 -8 13.99 C -8 18.41 -4.42 22 0 22 C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86 C -3.51 14.24 -2.46 13.1 -0.7 12.74 C 1.07 12.38 2.9 11.53 3.92 10.16 C 4.31 11.45 4.51 12.81 4.51 14.2 C 4.51 16.85 2.36 19 -0.29 19 Z" fill="#f97316" stroke-opacity="0" />
+                </g>
+
+
+                <g transform="translate(247.5, 48)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#202124" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="700" font-size="28px" font-style="normal" style="animation: currstreak 0.6s linear forwards">
+                        3
+                    </text>
+                </g>
+
+            </g>
+            <g style="isolation: isolate">
+
+                <g transform="translate(412.5, 48)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#202124" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="700" font-size="28px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 1.2s">
+                        111
+                    </text>
+                </g>
+
+
+                <g transform="translate(412.5, 84)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#777873" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="400" font-size="14px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 1.3s">
+                        Longest Streak
+                    </text>
+                </g>
+
+
+                <g transform="translate(412.5, 114)">
+                    <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#969791" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="400" font-size="12px" font-style="normal" style="opacity: 0; animation: fadein 0.5s linear forwards 1.4s">
+                        May 25 - Sep 12
+                    </text>
+                </g>
+            </g>
+
+        </g>
+    </svg>
+
+    <!-- Subtle animated scan -->
+    <rect class="scan"
+          x="0" y="112"
+          width="170" height="136"
+          fill="url(#scanGradient)"/>
+  </g>
+
+  <!-- Footer -->
+  <line x1="30" y1="255" x2="850" y2="255"
+        stroke="#e8e8e5" stroke-width="1"/>
+
+  <text class="footer" x="31" y="272">
+    DEVELOPER OMKAR
+  </text>
+
+  <text class="footer" x="849" y="272" text-anchor="end">
+    SHOW UP. BUILD. REPEAT.
+  </text>
+
+</svg>
