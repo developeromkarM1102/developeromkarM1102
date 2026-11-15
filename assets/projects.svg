@@ -1,0 +1,395 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="880" height="255"
+     viewBox="0 0 880 255"
+     role="img"
+     aria-labelledby="title">
+
+<title id="title">Omkar's Featured Projects</title>
+<desc>Three featured projects with animated orange, blue and green color reveals.</desc>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap');
+
+/* CARD ENTRANCE */
+@keyframes cardRise {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ACCENT GLOW */
+@keyframes accentGlow {
+  0%,100% { opacity: .65; }
+  50% { opacity: 1; }
+}
+
+/* CARD */
+.card {
+  opacity: 1;
+  animation: cardRise .8s cubic-bezier(.2,.7,.2,1) both;
+}
+
+/* TOP ACCENT */
+.accent {
+  animation: accentGlow 3s ease-in-out infinite;
+}
+
+/* PREMIUM TYPOGRAPHY */
+.project-title {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 23px;
+  letter-spacing: -.4px;
+  fill: #171717;
+}
+
+.project-description {
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 11.5px;
+  font-weight: 500;
+  fill: #686868;
+}
+
+.project-tech {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: -.3px;
+}
+
+.project-button {
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.project-link {
+  cursor: pointer;
+}
+
+/* REDUCED MOTION */
+@media(prefers-reduced-motion:reduce) {
+  .card {
+    opacity: 1;
+    animation: none;
+  }
+
+  .accent {
+    animation: none;
+  }
+}
+</style>
+
+<!-- BACKGROUND -->
+<rect width="880" height="255" rx="13" fill="#f3f3f1"/>
+
+<defs>
+
+  <!-- NAVGATI CARD CLIP -->
+  <clipPath id="navCardClip">
+    <rect x="25" y="15" width="265" height="225" rx="12"/>
+  </clipPath>
+
+  <!-- ORANGE COLOR REVEAL -->
+  <mask id="orangeSpread"
+        maskUnits="userSpaceOnUse"
+        x="25" y="15" width="265" height="225">
+
+    <rect x="25" y="15" width="0" height="225" fill="white">
+      <animate attributeName="width"
+               values="0;265;265;0"
+               keyTimes="0;.48;.78;1"
+               dur="6s"
+               repeatCount="indefinite"/>
+    </rect>
+  </mask>
+
+  <!-- INTERVIEW CARD CLIP -->
+  <clipPath id="interviewCardClip">
+    <rect x="307" y="15" width="265" height="225" rx="12"/>
+  </clipPath>
+
+  <!-- BLUE COLOR REVEAL -->
+  <mask id="blueSpread"
+        maskUnits="userSpaceOnUse"
+        x="307" y="15" width="265" height="225">
+
+    <rect x="307" y="15" width="0" height="225" fill="white">
+      <animate attributeName="width"
+               values="0;265;265;0"
+               keyTimes="0;.48;.78;1"
+               dur="6s"
+               begin="1s"
+               repeatCount="indefinite"/>
+    </rect>
+  </mask>
+
+  <!-- CAMPUSSPEAK CARD CLIP -->
+  <clipPath id="campusCardClip">
+    <rect x="589" y="15" width="265" height="225" rx="12"/>
+  </clipPath>
+
+  <!-- GREEN COLOR REVEAL -->
+  <mask id="greenSpread"
+        maskUnits="userSpaceOnUse"
+        x="589" y="15" width="265" height="225">
+
+    <rect x="589" y="15" width="0" height="225" fill="white">
+      <animate attributeName="width"
+               values="0;265;265;0"
+               keyTimes="0;.48;.78;1"
+               dur="6s"
+               begin="2s"
+               repeatCount="indefinite"/>
+    </rect>
+  </mask>
+
+  <!-- PROJECT IMAGE CLIPS -->
+  <clipPath id="navImageClip">
+    <rect x="37" y="28" width="241" height="92" rx="7"/>
+  </clipPath>
+
+  <clipPath id="interviewImageClip">
+    <rect x="319" y="28" width="241" height="92" rx="7"/>
+  </clipPath>
+
+  <clipPath id="campusImageClip">
+    <rect x="601" y="28" width="241" height="92" rx="7"/>
+  </clipPath>
+
+</defs>
+
+<!-- ================================= -->
+<!-- CARD 1: NAVGATI -->
+<!-- ================================= -->
+
+<g class="card" style="animation-delay:.1s">
+
+  <!-- Card background -->
+  <rect x="25" y="15"
+        width="265" height="225"
+        rx="12"
+        fill="#ffffff"
+        stroke="#e5e5e5"/>
+
+  <!-- Orange spreading reveal -->
+  <rect x="25" y="15"
+        width="265" height="225"
+        rx="12"
+        fill="#F28C28"
+        opacity=".17"
+        mask="url(#orangeSpread)"
+        clip-path="url(#navCardClip)"/>
+
+  <!-- Top accent -->
+  <rect class="accent"
+        x="25" y="15"
+        width="265" height="4"
+        rx="2"
+        fill="#F28C28"/>
+
+  <!-- Project image -->
+  <image xlink:href="./images/navgati.png"
+         x="37" y="28"
+         width="241" height="92"
+         preserveAspectRatio="xMidYMid slice"
+         clip-path="url(#navImageClip)"/>
+
+  <!-- Project title -->
+  <text class="project-title"
+        x="39" y="146">
+    NavGati
+  </text>
+
+  <!-- Description -->
+  <text class="project-description"
+        x="39" y="166">
+    AI-powered intelligent ride booking
+  </text>
+
+  <!-- Technology -->
+  <text class="project-tech"
+        x="39" y="187"
+        fill="#F28C28">
+    NEXT.JS · NODE.JS · MONGODB
+  </text>
+
+  <!-- Live project link -->
+  <a class="project-link"
+     xlink:href="https://navgati-ai-powered-ride-booking-pla-nu.vercel.app/"
+     target="_blank">
+
+    <rect x="37" y="199"
+          width="241" height="29"
+          rx="6"
+          fill="#FFF1E4"/>
+
+    <text class="project-button"
+          x="157" y="218"
+          text-anchor="middle"
+          fill="#E87918">
+      EXPLORE PROJECT &#8599;
+    </text>
+  </a>
+
+</g>
+
+<!-- ================================= -->
+<!-- CARD 2: AI INTERVIEW PREP -->
+<!-- ================================= -->
+
+<g class="card" style="animation-delay:.25s">
+
+  <!-- Card background -->
+  <rect x="307" y="15"
+        width="265" height="225"
+        rx="12"
+        fill="#ffffff"
+        stroke="#e5e5e5"/>
+
+  <!-- Blue spreading reveal -->
+  <rect x="307" y="15"
+        width="265" height="225"
+        rx="12"
+        fill="#3975F6"
+        opacity=".17"
+        mask="url(#blueSpread)"
+        clip-path="url(#interviewCardClip)"/>
+
+  <!-- Top accent -->
+  <rect class="accent"
+        x="307" y="15"
+        width="265" height="4"
+        rx="2"
+        fill="#3975F6"/>
+
+  <!-- Project image -->
+  <image xlink:href="./images/interview.png"
+         x="319" y="28"
+         width="241" height="92"
+         preserveAspectRatio="xMidYMid slice"
+         clip-path="url(#interviewImageClip)"/>
+
+  <!-- Project title -->
+  <text class="project-title"
+        x="321" y="146">
+    AI Interview Prep
+  </text>
+
+  <!-- Description -->
+  <text class="project-description"
+        x="321" y="166">
+    Personalized AI mock interview platform
+  </text>
+
+  <!-- Technology -->
+  <text class="project-tech"
+        x="321" y="187"
+        fill="#3975F6">
+    REACT · GEMINI · EXPRESS
+  </text>
+
+  <!-- Live project link -->
+  <a class="project-link"
+     xlink:href="https://gen-ai-interview-preparation.vercel.app/"
+     target="_blank">
+
+    <rect x="319" y="199"
+          width="241" height="29"
+          rx="6"
+          fill="#EAF0FF"/>
+
+    <text class="project-button"
+          x="439" y="218"
+          text-anchor="middle"
+          fill="#3975F6">
+      EXPLORE PROJECT &#8599;
+    </text>
+  </a>
+
+</g>
+
+<!-- ================================= -->
+<!-- CARD 3: AI CAMPUSSPEAK -->
+<!-- ================================= -->
+
+<g class="card" style="animation-delay:.4s">
+
+  <!-- Card background -->
+  <rect x="589" y="15"
+        width="265" height="225"
+        rx="12"
+        fill="#ffffff"
+        stroke="#e5e5e5"/>
+
+  <!-- Green spreading reveal -->
+  <rect x="589" y="15"
+        width="265" height="225"
+        rx="12"
+        fill="#20A464"
+        opacity=".17"
+        mask="url(#greenSpread)"
+        clip-path="url(#campusCardClip)"/>
+
+  <!-- Top accent -->
+  <rect class="accent"
+        x="589" y="15"
+        width="265" height="4"
+        rx="2"
+        fill="#20A464"/>
+
+  <!-- Project image -->
+  <image xlink:href="./images/campusspeak.png"
+         x="601" y="28"
+         width="241" height="92"
+         preserveAspectRatio="xMidYMid slice"
+         clip-path="url(#campusImageClip)"/>
+
+  <!-- Project title -->
+  <text class="project-title"
+        x="603" y="146">
+    AI CampusSpeak
+  </text>
+
+  <!-- Description -->
+  <text class="project-description"
+        x="603" y="166">
+    AI-powered campus communication
+  </text>
+
+  <!-- Technology -->
+  <text class="project-tech"
+        x="603" y="187"
+        fill="#20A464">
+    AI · WEB · FULL STACK
+  </text>
+
+  <!-- Live project link -->
+  <a class="project-link"
+     xlink:href="https://ai-campus-speak.vercel.app/"
+     target="_blank">
+
+    <rect x="601" y="199"
+          width="241" height="29"
+          rx="6"
+          fill="#E6F7EE"/>
+
+    <text class="project-button"
+          x="721" y="218"
+          text-anchor="middle"
+          fill="#20A464">
+      EXPLORE PROJECT &#8599;
+    </text>
+  </a>
+
+</g>
+
+</svg>
